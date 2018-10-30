@@ -1,0 +1,34 @@
+{
+    "version": 3,
+    "terraform_version": "0.11.7",
+    "serial": 15,
+    "lineage": "75cf54b3-95aa-0a30-d687-f717a5f1eb5b",
+    "modules": [
+        {
+            "path": [
+                "root"
+            ],
+            "outputs": {},
+            "resources": {
+                "google_compute_project_metadata.default": {
+                    "type": "google_compute_project_metadata",
+                    "depends_on": [],
+                    "primary": {
+                        "id": "common_metadata",
+                        "attributes": {
+                            "id": "common_metadata",
+                            "metadata.%": "1",
+                            "metadata.AuthSshKeys": "nagireddyani:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC64KOUkdfp+yuEABWH2t3Z/p4NdwUSBOQwHhSIfJo8wa4QPon0RY6Fl0bXgykikUCQw+vscbesnvuLulEIpMRdFTpF4lesY+fQ7SFlHmPzVtwTOY2c//HacDOaWwHF+7wFJly795xp7/CHzHk5p3pYbEvfoIbJeBAMSNuTrLwKEC3wO2Wdaa9FvzSs1ENYID4aK/9dOhA+YTXzOP4ozu+qZT/7nLfup9YXRhePRaOacMX+Bv38RlqYISEJYrA9BsQc1zitQaKeVND9OY3jXP01Dg+Znsjxlnh9YP9dSiPbyFVErJlZWYnY3JDSz2lSn5S0pZziZ3p70Hcb1goLRCQr nagireddyani@gmail.com\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDgT61ECDx4RFRBYrcNWmtUfBqSqAXdQuBzVL0nnRznSCIvoOrUCI932Ney8S1XfjP7zYvCZXn3JH3aKFC9OBY24J7vQhuB4rZ6226GU3qZ8781S5Qyc9s6EyQeOSYlFE2/E3SFgb6qp/iQnWlkW0Tl7ii4KEkG+hETtWqBwQbbprSCt6J8VXLpmQ/nDsZxs4ZMx72Veq+xOaRNvyLx43IU96eaopAi+ub1+HBWsHvUkh6zE+77xHTAJ5IOlsO5sCr/FY3QupJpE/ih63Z2FdqPuje8WkHs8+VLSNeQsnJTUVu1t+XiWefiHtx5srEt4B479ZHFG9e+6qZox9a5OqAz test@gmail.com\n",
+                            "project": "webkube-219004"
+                        },
+                        "meta": {},
+                        "tainted": false
+                    },
+                    "deposed": [],
+                    "provider": "provider.google"
+                }
+            },
+            "depends_on": []
+        }
+    ]
+}
